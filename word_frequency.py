@@ -25,7 +25,7 @@ def is_sentence(text):
 
     return True
 
-# Step 1: Get and validate sentence input
+#get and validate sentence input
 def get_sentence():
     sentence = input("Enter a sentence: ")
     while not is_sentence(sentence):
